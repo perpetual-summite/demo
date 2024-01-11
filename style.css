@@ -1,0 +1,101 @@
+@font-face {
+    font-family: FuturaStd-Bold;
+    src: url(./fonts/FuturaStd-Bold.otf);
+}
+
+@font-face {
+    font-family: FuturaStd-Medium;
+    src: url(./fonts/FuturaStd-Medium.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main-container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/Desktopbg.jpg);
+    background-size: cover;
+
+}
+
+.logo img {
+    align-content: center;
+    margin-top: 15px;
+    margin-left: 450px;
+    height: 100px;
+    width: 300px;
+}
+
+.container-form {
+    padding: 10px;
+    float: left;
+    margin-left: 400px;
+    height: 450px;
+    width: 400px;
+    /* background-color: white; */
+
+
+}
+
+.data {
+    display: inline;
+    height: 30px;
+    width: 350px;
+    border-radius: 15px;
+
+    padding: 5px;
+    margin-top: 7px;
+    border: 2px solid red;
+}
+
+
+.data-1 {
+
+    display: inline;
+    height: 30px;
+    width: 250px;
+    border: 2px solid red;
+    border-radius: 15px;
+    font-family: FuturaStd-Medium;
+    padding: 5px;
+    margin-top: 5px;
+    text-decoration-color: red;
+}
+
+.container-form p {
+    float: left;
+    height: 30px;
+    width: 100%;
+    margin: 5px;
+    color: white;
+}
+
+.btn {
+    padding: 5px;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: FuturaStd-Bold;
+
+}
+
+.btn-1 {
+    margin-left: 125px;
+    padding: 5px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+    font-family: FuturaStd-Bold;
+
+}

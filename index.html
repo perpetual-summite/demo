@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>test</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 768px) and (orientation:portrait) {
+            /* Targets screens up to 768px wide (common mobile breakpoint) */
+
+            /* General adjustments for mobile */
+            body {
+                font-size: 16px;
+                background-image: url(./images/bg.jpg);
+                background-size: 100% 100%;
+                /* Adjust base font size for better readability */
+            }
+
+            * {
+
+                /* Ensure consistent sizing */
+            }
+
+            /* Specific styles for mobile view */
+            .main-container {
+                /* background-size: cover; */
+
+
+
+                /* Ensure background image covers the screen */
+            }
+
+            .logo img {
+                width: 100%;
+                height: auto;
+                /* Responsively scale the logo */
+                margin-left: 0;
+                margin-top: 20px;
+                /* Adjust spacing for mobile */
+            }
+
+            .container-form {
+                width: 100%;
+                margin: 0 auto;
+                /* Center the form on mobile */
+                padding: 20px;
+            }
+
+            .data,
+            .data-1 {
+                width: 100%;
+                margin-top: 10px;
+                /* Adjust spacing for mobile */
+            }
+
+            .btn-1 {
+                margin-left: 0;
+                /* Remove left margin on mobile */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="logo">
+            <img src="./images/logo.png" />
+        </div>
+        <div class="container-form">
+            <form method="">
+                <input type="text" class="data" placeholder="Enter mobile number">
+                <input type="text" class="data" placeholder="Enter your name">
+                <input type="text" class="data" placeholder="Enter your Aadhar Number">
+                <input type="text" class="data-1" placeholder="Upload your photos">
+                <button type="button" class="btn">UPLOAD</button>
+                <p>
+                    default payment mode is paytm <br>
+                    " if paytm is not available please select upi/neft options
+                </p>
+                <input type="text" class="data" placeholder="PAYTM">
+                <input type="text" class="data" placeholder="Enter paytm Mobile Number">
+                <button class="btn-1" type="submit">SUBMIT</button>
+            </form>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+
+</html>
